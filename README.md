@@ -1,45 +1,10 @@
 # Amazon E-Commerce Sales & Operations Analysis
 
-### Power BI | Microsoft Excel | Data Analytics Portfolio Project
+### Interactive Power BI Dashboard | Excel • Power BI
 
-A data analytics project focused on exploring Amazon e-commerce sales,
-customer segments, fulfilment methods, and order delivery performance
-using Microsoft Excel and Power BI.
+An end-to-end data analytics project focused on Amazon e-commerce sales, customer segments, order fulfilment, cancellations, and delivery operations.
 
-Created by **Gopal Krishna**
-
----
-
-## 📌 Project Overview
-
-This project analyzes Amazon e-commerce order data to understand
-sales trends, customer purchasing patterns, fulfilment performance,
-and order delivery outcomes.
-
-The dataset was cleaned and prepared using Microsoft Excel, followed
-by the development of an interactive two-page Power BI dashboard.
-
-The dashboard allows users to explore the data through slicers,
-interactive visuals, KPI cards, and page navigation.
-
----
-
-## 🛠️ Tools & Technologies
-
-- Microsoft Excel — Data cleaning and preparation
-- Microsoft Power BI — Interactive dashboard development
-
----
-
-## 🧹 Data Cleaning & Preparation
-
-The dataset was prepared in Excel through several cleaning steps:
-
-- Handling missing values
-- Checking and removing duplicate records
-- Standardizing date formats
-- Cleaning and standardizing column names
-- Additional data preparation for dashboard analysis
+This project transforms raw sales data into an interactive Power BI dashboard to explore sales trends, understand order performance, and identify operational patterns.
 
 ---
 
@@ -47,122 +12,153 @@ The dataset was prepared in Excel through several cleaning steps:
 
 ### 1. Sales Overview
 
-![Sales Overview](Dashboard-Preview/Sales-Overview.png)
+![Amazon Sales Overview Dashboard](./Sales-Overview.png)
+
+This dashboard provides an overview of sales performance, monthly trends, customer segments, fulfilment channels, promotion status, and state-wise sales.
 
 ### 2. Order & Delivery Analysis
 
-![Order & Delivery Analysis](Dashboard-Preview/Order-Delivery-Analysis.png)
+![Amazon Order and Delivery Analysis Dashboard](./Order-Delivery-Analysis.png)
+
+This dashboard focuses on order status, courier status, cancellation patterns, and fulfilment-related performance.
 
 ---
 
-## 🎬 Interactive Dashboard Demo
+## 🎥 Interactive Dashboard Demo
 
-Watch the demo video to explore the dashboard's slicers,
-KPI updates, charts, and page navigation.
+Watch the demo to explore dashboard navigation, slicers, filtering, and report interactions.
 
-[▶ Watch Interactive Dashboard Demo](Dashboard-Preview/Amazon_Ecommerce_Sales_Operations_Interactive_Demo.mp4)
+[▶️ Watch Interactive Dashboard Demo (MP4)](./Amazon_Ecommerce_Sales_Operations_Interactive_Demo.mp4)
 
 ---
 
-## 📈 Key Performance Indicators
+## 📌 Project Overview
 
-| KPI | Description |
+| Attribute | Details |
 |---|---|
-| Total Orders | Total distinct orders |
-| Total Sales | Total sales amount |
-| Total Quantity | Total quantity ordered |
-| Average Order Value (AOV) | Average sales value per order |
-| Cancellation Rate | Percentage of cancelled orders |
+| Project Name | Amazon E-Commerce Sales & Operations Analysis |
+| Domain | E-Commerce Analytics |
+| Tools Used | Microsoft Excel, Power BI |
+| Dataset Size | 128,975 records |
+| Reporting Period | 31 March 2022 – 29 June 2022 |
+| Project Type | Data Cleaning, Exploratory Analysis & Dashboard Development |
 
 ---
 
-## 🔍 Dashboard Features
+## 🎯 Business Objectives
 
-### Sales Overview
-- Monthly Sales Trend
-- Sales by Fulfilment
-- Top 10 States by Sales
-- Sales by Customer Segment
-- Sales by Promotion Status
-
-### Order & Delivery Analysis
-- Order Status Distribution
-- Courier Status Distribution
-- Cancellation Rate by Fulfilment
-- Sales by Fulfilment
+- Analyze overall sales performance and order trends.
+- Understand sales distribution across states and customer segments.
+- Compare Amazon and Merchant fulfilment performance.
+- Examine order cancellations and courier status.
+- Explore sales patterns by promotion status.
+- Build an interactive dashboard for business-oriented analysis.
 
 ---
 
-## 🎛️ Interactive Features
+## 📈 Key Performance Indicators (KPIs)
 
-The dashboard includes slicers for:
+| KPI | Value |
+|---|---:|
+| Total Sales Amount | ₹78,592,678.30 |
+| Total Orders | 120,378 |
+| Total Quantity | 116,649 |
+| Average Order Value (AOV) | ₹652.88 |
+| Cancellation Rate | 14.28% |
 
-- Date
-- Fulfilment
-- Customer Segment
-- Promotion Status
-- Order Status
-- Courier Status
-- State
-
-Users can explore the data by applying filters and observing
-changes in the relevant KPIs and visualizations.
+*Note: These figures represent the analyzed dataset. March and June contain partial-month data.*
 
 ---
 
-## 💡 Key Insights
+## 🔍 Key Insights
 
-- Total Sales: ₹78,592,678.30
-- Total Orders: 120,378
-- Total Quantity: 116,649
-- Average Order Value: ₹652.88
-- Cancellation Rate: 14.28%
+- **Sales Distribution:** B2C orders contributed approximately 99.25% of total sales.
+- **Customer Segment:** B2B had a higher average order value (₹744.61) than B2C (₹652.27).
+- **Fulfilment:** Amazon-fulfilled orders had a cancellation rate of approximately 12.86%, compared with 17.54% for Merchant-fulfilled orders.
+- **Promotions:** Orders marked as promotional had a higher average order value (₹729.45) than orders without promotions (₹532.72).
+- **Geographical Performance:** Maharashtra recorded the highest sales among the states in the analysis.
 
-Maharashtra recorded the highest sales among states.
-
-B2C orders contributed approximately 99.25% of total sales.
-
-Orders with promotions had a higher observed AOV than orders
-without promotions. This is an observational comparison and
-does not establish causation.
+*These are descriptive findings from the dataset. Observed differences do not establish causation.*
 
 ---
 
-## 📁 Repository Contents
+## 🧹 Data Cleaning & Preparation
 
-- Dashboard screenshots
-- Interactive demo video
-- Project documentation
-- Dataset (if included)
+The dataset was prepared in Microsoft Excel before dashboard development.
+
+Key preparation activities included:
+
+- Handling missing values.
+- Checking and removing duplicate records where applicable.
+- Standardizing column names.
+- Formatting date fields.
+- Reviewing data types and data consistency.
+- Preparing the dataset for Power BI analysis.
+
+---
+
+## 🛠️ Tools & Technologies
+
+### Microsoft Excel
+- Data cleaning and preparation
+- Data validation
+- Initial data exploration
+
+### Microsoft Power BI
+- Interactive dashboard development
+- KPI cards and visualizations
+- Slicers and cross-filtering
+- Bookmarks and reset filters
+- Multi-page report navigation
+
+---
+
+## 📂 Project Files
+
+| File | Description |
+|---|---|
+| [Sales-Overview.png](./Sales-Overview.png) | Sales Overview dashboard screenshot |
+| [Order-Delivery-Analysis.png](./Order-Delivery-Analysis.png) | Order & Delivery Analysis screenshot |
+| [Amazon-Ecommerce-Sales-Operations-Analysis.pdf](./Amazon-Ecommerce-Sales-Operations-Analysis.pdf) | PDF dashboard report |
+| [Interactive Demo (MP4)](./Amazon_Ecommerce_Sales_Operations_Interactive_Demo.mp4) | Dashboard walkthrough video |
+| [Compressed Dataset (ZIP)](./Amazon%20Sale%20Report.csv.zip) | Compressed dataset |
+
+---
+
+## ⚠️ Limitations
+
+- The dataset covers a limited reporting period.
+- March and June are partial months and should not be directly compared with complete months without considering date coverage.
+- The dataset does not contain cost or profit fields; therefore, profitability and profit margin are not evaluated.
+- Promotion-related differences are observational and do not establish that promotions caused higher order values.
+- Findings are limited to the available dataset and its recorded fields.
+
+---
+
+## 🚀 Project Purpose
+
+This project was developed as part of my Data Analytics portfolio to demonstrate practical skills in data preparation, exploratory analysis, dashboard development, and business insight communication.
+
+It is intended for portfolio review, educational viewing, and professional demonstration.
 
 ---
 
 ## 👨‍💻 Author
 
-**Gopal Krishna**
+**Gopal Krishna**  
+B.Tech CSE | Aspiring Data Analyst
 
-- GitHub: https://github.com/Gopal-42
-- LinkedIn: https://www.linkedin.com/in/gopal-krishna-217b80176
+- GitHub: [Gopal-42](https://github.com/Gopal-42)
+- LinkedIn: [Gopal Krishna](https://www.linkedin.com/in/gopal-krishna-217b80176)
 
 ---
 
-## © Copyright & Usage Restrictions
+## © Copyright & Usage Notice
 
 © 2026 Gopal Krishna. All Rights Reserved.
 
-This project is shared for educational viewing and portfolio
-demonstration purposes only.
+This project and its dashboard design, documentation, and original analysis are shared for educational viewing and portfolio demonstration.
 
-No permission is granted to reproduce, modify, redistribute,
-republish, commercially use, or claim this project as your own
-without prior written permission from the author.
+Unauthorized copying, redistribution, modification, re-uploading, or claiming this work as your own is prohibited. Commercial use requires prior written permission from the author.
 
-Viewing this repository does not grant ownership or licensing
-rights to the project materials.
-
-Unauthorized copying, redistribution, modification, or
-misrepresentation of this work is prohibited.
-
-For permissions, contact the author through LinkedIn.
-
----
+This notice does not override any applicable rights or license terms associated with the original dataset or third-party materials.
